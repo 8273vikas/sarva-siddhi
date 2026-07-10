@@ -1,0 +1,43 @@
+# SH001 Smart Core Controller
+## GPIO Standard v1.0
+
+### Communication
+GPIO21 -> I2C SDA
+GPIO22 -> I2C SCL
+
+GPIO16 -> UART RX2
+GPIO17 -> UART TX2
+
+GPIO18 -> SPI SCK
+GPIO19 -> SPI MISO
+GPIO23 -> SPI MOSI
+GPIO5  -> SPI CS
+
+### Digital Inputs
+GPIO32
+GPIO33
+GPIO34 (Input Only)
+GPIO35 (Input Only)
+
+### Relay Outputs
+GPIO25
+GPIO26
+GPIO27
+
+### PWM Outputs
+GPIO13
+GPIO14
+
+### ADC Inputs
+GPIO36
+GPIO39
+
+### Status LED
+GPIO2
+
+### Reserved
+GPIO0
+GPIO1
+GPIO3
+GPIO12
+GPIO15
